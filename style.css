@@ -553,4 +553,9 @@ footer h3{
         margin : 0;
         
     }
+
+    .description p{
+        margin-left: 0px;
+        font-size: 1.5em;
+    }
 }
