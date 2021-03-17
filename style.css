@@ -549,5 +549,7 @@ footer h3{
 
     body{
         overflow-x: hidden; 
+        margin : 0;
+        
     }
 }
