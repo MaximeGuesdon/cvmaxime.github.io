@@ -37,6 +37,7 @@ li{
 header {
     text-align: center;
     height : 100vh;
+
     background: url(media/backgroundheader.png) no-repeat fixed 50% 50%  ;
     background-size : cover;
     
@@ -341,9 +342,10 @@ footer h3{
 /* Portfolio */
 
 #Portfolio{
-    margin : 100px;
+    margin : 100px 2% 0 2%;
     padding : 40px 10px 60px 40px;
     background : #FFFAFA;
+    width : 100%;
 }
 
 #Portfolio h3{
