@@ -499,9 +499,11 @@ footer h3{
 
     h3 ,h2 ,h4 {
         font-size: 1em !important;
+       
     }
     h5{
         font-size: .8em  !important;
+       
     }
     #parcours{
         margin-top : -450px;
@@ -530,5 +532,9 @@ footer h3{
    
     #buttontel:hover{
         font-size: 100%;
+    }
+    
+    #demo{
+        display : none !important;
     }
 }
