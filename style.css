@@ -37,7 +37,6 @@ li{
 header {
     text-align: center;
     height : 100vh;
-
     background: url(media/backgroundheader.png) no-repeat fixed   ;
     background-size : cover;
     
@@ -387,7 +386,7 @@ footer h3{
 }
 
 .description {
-  max-width: 1350px;
+  max-width: 350px;
   padding: 50px 0 0 20px;
 }
 
@@ -507,6 +506,8 @@ footer h3{
         font-size: .8em  !important;
        
     }
+
+    
     #parcours{
         margin-top : -450px;
     }
