@@ -38,7 +38,7 @@ header {
     text-align: center;
     height : 100vh;
 
-    background: url(media/backgroundheader.png) no-repeat fixed 50% 50%  ;
+    background: url(media/backgroundheader.png) no-repeat fixed   ;
     background-size : cover;
     
     
@@ -387,7 +387,7 @@ footer h3{
 }
 
 .description {
-  max-width: 350px;
+  max-width: 1350px;
   padding: 50px 0 0 20px;
 }
 
@@ -559,3 +559,79 @@ footer h3{
         font-size: 1.5em;
     }
 }
+
+
+@media screen and (max-width :640px){
+    .navbar {
+       display : none !important;
+   }
+
+   .fixed-top {
+       position : unset !important;
+   }
+
+   h1{
+       padding-top :20px;
+   }
+
+   h3 ,h2 ,h4 {
+       font-size: 1em !important;
+      
+   }
+   h5{
+       font-size: .8em  !important;
+      
+   }
+   #parcours{
+       margin-top : -450px;
+   }
+
+   #buttonmail{
+       
+       font-size: 1em;
+      
+   }
+  
+   
+   #buttontel{
+       font-size: 1em;
+      
+   }
+
+   .photo img {
+       width : 100px;
+
+   }
+
+   #buttonmail:hover{
+       font-size: 100%;
+   }   
+  
+   #buttontel:hover{
+       font-size: 100%;
+   }
+   
+   #typewriter{
+       display : none !important;
+   }
+
+   header {
+       text-align: center;
+       position: relative;
+       margin: 0 auto;
+       
+   }
+
+
+   body{
+       overflow-x: hidden; 
+       margin : 0;
+       
+   }
+
+   .description p{
+       margin-left: 0px;
+       font-size: 1.5em;
+   }
+}
+
