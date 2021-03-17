@@ -29,7 +29,7 @@ li{
     transition: 0.7s;
 }
 .navbar-nav {
-    width: 80% i !important;
+    width: 80% !important;
     margin : 0 auto;
     justify-content:  space-between;
 }
@@ -37,6 +37,7 @@ li{
 header {
     text-align: center;
     height : 100vh;
+    width : 100%;
     background: url(media/backgroundheader.png) no-repeat fixed 50% 50%  ;
     background-size : cover;
     
@@ -534,7 +535,19 @@ footer h3{
         font-size: 100%;
     }
     
-    #demo{
+    #typewriter{
         display : none !important;
+    }
+
+    header {
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+
+
+    body{
+        overflow-x: hidden; 
     }
 }
