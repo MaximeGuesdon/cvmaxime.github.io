@@ -554,10 +554,17 @@ footer h3{
         margin : 0;
         
     }
+    .description h4{
+        margin-left: -40px;
+ 
+     
+    }
 
-    .description p{
-        margin-left: 0px;
-        font-size: 1.5em;
+
+    .description h5{
+        margin-left: -50px;
+        margin-top: -40px;
+        font-size: .5em !important;
     }
 }
 
