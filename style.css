@@ -524,7 +524,11 @@ footer h3{
 
     }
 
-    
+    #buttonmail:hover{
+        font-size: 100%;
+    }   
    
-
+    #buttontel:hover{
+        font-size: 100%;
+    }
 }
