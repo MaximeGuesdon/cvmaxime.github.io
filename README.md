@@ -1,1 +1,1 @@
-WebSite for my Curriculum Vitae.
+Website for my Curriculum Vitae.
