@@ -122,9 +122,10 @@ header .button:hover a {
     height : 620px;
     width : 45%;
     max-width: 600px;
-    background: #0500ff;
-    background: linear-gradient(120deg,#158cba 0%, #158cba 40%, #158cba 40%, transparent 99%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 43% 75%, 24% 100%, 26% 75%, 0% 75%);
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+
+   
 }
 
 #langages .bar{
@@ -134,15 +135,15 @@ header .button:hover a {
 /* Formation*/
 
 #formation{
-    position : relative;
-    top : -688px;
     float : right;
-    margin-right : 5%;
-    padding : 110px 0 200px 50px;
+    height : 620px;
     width : 45%;
     max-width: 600px;
-    background: linear-gradient(120deg,transparent 0%, #158cba 40%, #158cba 80%);
-    clip-path: polygon(0% 10%, 100% 10%, 100% 78%, 74% 78%, 74% 100%, 56% 78%, 0 78%);
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+    margin-top: -32.55%;
+    padding : 80px 80px 80px 50px;
+    margin-right: 5%;
 
 
 }
